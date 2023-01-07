@@ -2,7 +2,7 @@
 
 import os
 
-print("As long as your public key is saved as 'id_rsa.pub' this will work!")
+print("As long as your public key is saved in your local .ssh as 'id_rsa.pub' this will work!")
 
 
 filepath = os.getenv('HOME') + "/.ssh/id_rsa.pub"
